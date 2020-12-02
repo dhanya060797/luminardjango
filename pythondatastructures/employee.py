@@ -36,18 +36,18 @@ for i in employee:
 
 #all empl whose des=devoloper
 for i in employee:
-    if(i[2]=="devolper"):
+    if(i[2]=="devoloper"):
         print(i[1])
 #working in 1980s
 for i in employee:
     if 1990>=i[3]>=1980:
         print(i[1])
 #eperience >9 yrs
-employee1=[[1001,"ajay","qa",1981,2003],
+employees=[[1001,"ajay","qa",1981,2003],
           [1882,"vijay","devoloper",1992,2008],
           [1884,"arun","ba",1989,2010],
           [1884,"amal","devoloper",2009,2014]
-ep=i[4]-inti[3]
-for i in employee1:
-    if(ep>9):
-        print(i[1])
+
+for emp in employees:
+    if (emp[4]-emp[3])>9:
+        print(emp)

@@ -26,3 +26,4 @@ for student in students:
 print("mca total is",totalmc)
 print("bca total is",totalbc)
 
+
