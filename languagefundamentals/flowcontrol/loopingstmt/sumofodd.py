@@ -5,6 +5,6 @@ if(low>high):
     print("error")
 while(low<=high):
     if(low%2!=0):
-        sum+=low
+        sum+=low#sum=sum+low
     low+=1
 print(sum)
